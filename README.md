@@ -1,6 +1,7 @@
 <h1>QB-Core Scavenging Script</h1>
 
 <li><strong>Video Preview: Unavaliable </strong></li>
+<li><strong>I have kept the debug commands inside the resource as a reference as how you can add admin commands to your server for the XP!</strong></li>
 
 ## Dependencies
 
