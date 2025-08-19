@@ -22,6 +22,7 @@
 <ol>
   <li>Download the repository <a href="https://github.com/sam-scripts/sam-scavenging">here</a>.</li>
   <li>Extract the folder and upload it to your servers resource folder</li>
+    <li>You will also need to run the SQL query inside your servers database</li>
 </ol>
 
 <h4>Configuration File</h4>
