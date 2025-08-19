@@ -1,9 +1,67 @@
-# sam-scavenging
-This is a QB Core scavenging script which allows the players to search/loot bins and other various trash items and level up their XP in return of finding better items.
+<h1>QB-Core Scavenging Script</h1>
 
-# Dependencies
-Ox Lib
-Ox MySQL
+<li><strong>Video Preview: Unavaliable </strong></li>
 
-# Support
-I have recently switched to making QBox resources so I am unaware if this script will function properly inside of QBox
+## Dependencies
+
+[Oxlib/oxmysql](https://github.com/overextended/oxmysql)
+
+
+<h4>Features</h4>
+
+<ul>
+    <li>Open Source</li>
+    <li>Reputation System</li>
+    <li>NPC For Users To Access Their XP</li>
+    <li>Customizable Configuration File</li>
+    <li>Ability To Add More Entities</li>
+</ul>
+
+<h4>Installation</h4>
+
+<ol>
+  <li>Download the repository <a href="https://github.com/sam-scripts/sam-scavenging">here</a>.</li>
+  <li>Extract the folder and upload it to your servers resource folder</li>
+</ol>
+
+<h4>Configuration File</h4>
+
+```
+
+-- Ped Character
+Config.Ped = "a_m_o_soucent_03"
+
+-- Ped Coords
+Config.PedCoords = vector4(-178.79, -1259.90, 32.6-2, 90.43) 
+
+Config.LootableItems = {
+    "prop_dumpster_02a",
+    "prop_dumpster_01a",
+    "prop_bin_01a",
+    "prop_bin_02a",
+    "prop_bin_07c",
+
+}
+
+-- Scavenging Properties
+Config.ScavengeTime = 8000
+
+Config.CooldownTime = 60000
+
+-- Scavenging Items
+
+Config.LowRepItems = { 
+}
+
+Config.MediumRepItems = { 
+    
+}
+
+Config.HighRepItems = { 
+    
+}
+```
+
+<br>
+
+If you are in need of any help please add me on discord and I will try as best as I can to respond fast (sam7870).
